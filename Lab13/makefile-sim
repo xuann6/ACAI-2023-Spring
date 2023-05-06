@@ -1,0 +1,16 @@
+TRACEFILE_DIR := tracefile
+LOG_DIR := log
+LOG_PREFIX := log
+CHAMPSIM_BIN := bin/champsim
+
+TRACES := $(wildcard $(TRACEFILE_DIR)/*.champsimtrace.xz)
+LOGS := $(patsubst $(TRACEFILE_DIR)/%.champsimtrace.xz, $(LOG_DIR)/$(LOG_PREFIX)-%-result.txt, $(TRACES))
+
+.PHONY: all
+all: $(LOGS)
+	@echo "Simulation done."
+
+$(LOG_DIR)/$(LOG_PREFIX)-%-result.txt: $(TRACEFILE_DIR)/%.champsimtrace.xz
+	@echo "Simulation target: $<"
+	@mkdir -p $(LOG_DIR)
+	@$(CHAMPSIM_BIN) --warmup_instructions 200000000 --simulation_instructions 500000000 $< > $@

@@ -1,0 +1,1300 @@
+Elaborating design...
+Done elaborating.
+[[35minfo[0m] [0.003] SEED 1677723792379
+[[35minfo[0m] [0.008] [PC_IF ]       0 [Inst] lui x05, 0x00000008       
+[[35minfo[0m] [0.008] [PC_ID ]       0 [Inst] lui x05, 0x00000008       
+[[35minfo[0m] [0.009] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.009]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.009] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.009] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.010] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.010] ==============================================
+[[35minfo[0m] [0.012] [PC_IF ]       4 [Inst] addi x05, x05, 0x00000000 
+[[35minfo[0m] [0.012] [PC_ID ]       0 [Inst] lui x05, 0x00000008       
+[[35minfo[0m] [0.013] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.013]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.013] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.013] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.014] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.014] ==============================================
+[[35minfo[0m] [0.016] [PC_IF ]       8 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.016] [PC_ID ]       4 [Inst] addi x05, x05, 0x00000000 
+[[35minfo[0m] [0.016] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.017]                                                   [ALU src1]       0 [ALU src2]    8000 [ALU Out]    8000
+[[35minfo[0m] [0.017] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.017] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.017] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.018] ==============================================
+[[35minfo[0m] [0.019] [PC_IF ]       8 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.019] [PC_ID ]       4 [Inst] addi x05, x05, 0x00000000 
+[[35minfo[0m] [0.020] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.020]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.020] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]    8000 [DM Rdata]11111111
+[[35minfo[0m] [0.021] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.021] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.021] ==============================================
+[[35minfo[0m] [0.023] [PC_IF ]       8 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.023] [PC_ID ]       4 [Inst] addi x05, x05, 0x00000000 
+[[35minfo[0m] [0.023] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.023]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.024] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.024] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       5 [WB  data]    8000
+[[35minfo[0m] [0.024] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.024] ==============================================
+[[35minfo[0m] [0.026] [PC_IF ]       8 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.026] [PC_ID ]       4 [Inst] addi x05, x05, 0x00000000 
+[[35minfo[0m] [0.027] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.027]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.027] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.028] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.028] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.028] ==============================================
+[[35minfo[0m] [0.030] [PC_IF ]      12 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.030] [PC_ID ]       8 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.031] [PC_EXE]       4 [Inst] addi x05, x05, 0x00000000 [EXE src1]    8000 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.031]                                                   [ALU src1]    8000 [ALU src2]       0 [ALU Out]    8000
+[[35minfo[0m] [0.031] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.031] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.032] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.032] ==============================================
+[[35minfo[0m] [0.033] [PC_IF ]      16 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.033] [PC_ID ]      12 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.034] [PC_EXE]       8 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.034]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.034] [PC_MEM]       4 [Inst] addi x05, x05, 0x00000000 [DM Raddr]    8000 [DM Rdata]11111111
+[[35minfo[0m] [0.035] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.035] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.035] ==============================================
+[[35minfo[0m] [0.036] [PC_IF ]      20 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.037] [PC_ID ]      16 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.037] [PC_EXE]      12 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.037]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.037] [PC_MEM]       8 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.038] [PC_WB ]       4 [Inst] addi x05, x05, 0x00000000 [ WB reg ]       5 [WB  data]    8000
+[[35minfo[0m] [0.038] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.038] ==============================================
+[[35minfo[0m] [0.039] [PC_IF ]      24 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.040] [PC_ID ]      20 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.040] [PC_EXE]      16 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.040]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.040] [PC_MEM]      12 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.041] [PC_WB ]       8 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.041] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.041] ==============================================
+[[35minfo[0m] [0.042] [PC_IF ]      28 [Inst] vle8_v v1, 0(t0)          
+[[35minfo[0m] [0.043] [PC_ID ]      24 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.043] [PC_EXE]      20 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.043]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.043] [PC_MEM]      16 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.043] [PC_WB ]      12 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.044] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.044] ==============================================
+[[35minfo[0m] [0.045] [PC_IF ]      32 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.046] [PC_ID ]      28 [Inst] vle8_v v1, 0(t0)          
+[[35minfo[0m] [0.046] [PC_EXE]      24 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.046]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.046] [PC_MEM]      20 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.047] [PC_WB ]      16 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.047] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.047] ==============================================
+[[35minfo[0m] [0.052] [PC_IF ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.052] [PC_ID ]      32 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.052] [PC_EXE]      28 [Inst] vle8_v v1, 0(t0)          [EXE src1]    8000 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.053]                                                   [ALU src1]    8000 [ALU src2]       0 [ALU Out]    8000
+[[35minfo[0m] [0.053] [PC_MEM]      24 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]11111111
+[[35minfo[0m] [0.053] [PC_WB ]      20 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.054] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.054] ==============================================
+[[35minfo[0m] [0.055] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.056] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.056] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.056]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.056] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]11111111
+[[35minfo[0m] [0.057] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.057] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.057] ==============================================
+[[35minfo[0m] [0.058] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.058] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.058] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.059]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.059] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]11111111
+[[35minfo[0m] [0.059] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.060] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.060] ==============================================
+[[35minfo[0m] [0.060] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.061] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.061] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.061]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.062] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]11111111
+[[35minfo[0m] [0.062] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.062] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.062] ==============================================
+[[35minfo[0m] [0.064] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.064] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.064] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.065]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.065] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]22222222
+[[35minfo[0m] [0.065] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.065] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.065] ==============================================
+[[35minfo[0m] [0.066] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.067] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.067] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.067]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.067] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]33333333
+[[35minfo[0m] [0.068] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.068] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.068] ==============================================
+[[35minfo[0m] [0.069] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.069] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.069] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.070]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.070] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]44444444
+[[35minfo[0m] [0.070] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.071] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.071] ==============================================
+[[35minfo[0m] [0.072] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.072] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.072] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.072]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.073] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]55555555
+[[35minfo[0m] [0.073] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.073] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.073] ==============================================
+[[35minfo[0m] [0.074] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.074] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.074] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.075]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.075] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]66666666
+[[35minfo[0m] [0.075] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.075] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.075] ==============================================
+[[35minfo[0m] [0.076] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.077] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.077] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.077]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.077] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]77777777
+[[35minfo[0m] [0.078] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.078] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.078] ==============================================
+[[35minfo[0m] [0.079] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.079] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.079] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.080]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.080] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]88888888
+[[35minfo[0m] [0.080] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.080] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.080] ==============================================
+[[35minfo[0m] [0.081] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.081] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.082] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.082]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.082] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]99999999
+[[35minfo[0m] [0.082] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.082] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.083] ==============================================
+[[35minfo[0m] [0.083] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.084] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.084] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.084]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.084] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]aaaaaaaa
+[[35minfo[0m] [0.084] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.085] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.085] ==============================================
+[[35minfo[0m] [0.086] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.086] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.086] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.086]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.086] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]bbbbbbbb
+[[35minfo[0m] [0.087] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.087] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.087] ==============================================
+[[35minfo[0m] [0.088] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.088] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.088] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.089]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.089] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]cccccccc
+[[35minfo[0m] [0.089] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.089] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.089] ==============================================
+[[35minfo[0m] [0.090] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.091] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.091] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.091]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.091] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]dddddddd
+[[35minfo[0m] [0.092] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.092] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.092] ==============================================
+[[35minfo[0m] [0.093] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.093] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.094] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.094]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.094] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]eeeeeeee
+[[35minfo[0m] [0.094] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.094] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.095] ==============================================
+[[35minfo[0m] [0.095] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.095] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.096] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.096]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.096] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]ffffffff
+[[35minfo[0m] [0.096] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.097] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.097] ==============================================
+[[35minfo[0m] [0.097] [PC_IF ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.098] [PC_ID ]      36 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.098] [PC_EXE]      32 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.098]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.098] [PC_MEM]      28 [Inst] vle8_v v1, 0(t0)          [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.099] [PC_WB ]      24 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.099] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.099] ==============================================
+[[35minfo[0m] [0.100] [PC_IF ]      44 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.100] [PC_ID ]      40 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.101] [PC_EXE]      36 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.101]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.101] [PC_MEM]      32 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.101] [PC_WB ]      28 [Inst] vle8_v v1, 0(t0)          [ WB reg ]       1 [WB  data]    8000
+[[35minfo[0m] [0.102] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.102] ==============================================
+[[35minfo[0m] [0.103] [PC_IF ]      48 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.103] [PC_ID ]      44 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.103] [PC_EXE]      40 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.103]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.104] [PC_MEM]      36 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.104] [PC_WB ]      32 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.104] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.104] ==============================================
+[[35minfo[0m] [0.105] [PC_IF ]      52 [Inst] vle8_v v2, 0(t0)          
+[[35minfo[0m] [0.105] [PC_ID ]      48 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.105] [PC_EXE]      44 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.105]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.106] [PC_MEM]      40 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.106] [PC_WB ]      36 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.106] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.106] ==============================================
+[[35minfo[0m] [0.107] [PC_IF ]      56 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.107] [PC_ID ]      52 [Inst] vle8_v v2, 0(t0)          
+[[35minfo[0m] [0.107] [PC_EXE]      48 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.108]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.108] [PC_MEM]      44 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.108] [PC_WB ]      40 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.108] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.108] ==============================================
+[[35minfo[0m] [0.109] [PC_IF ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.109] [PC_ID ]      56 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.109] [PC_EXE]      52 [Inst] vle8_v v2, 0(t0)          [EXE src1]    8000 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.110]                                                   [ALU src1]    8000 [ALU src2]       0 [ALU Out]    8000
+[[35minfo[0m] [0.110] [PC_MEM]      48 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.110] [PC_WB ]      44 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.110] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.110] ==============================================
+[[35minfo[0m] [0.111] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.111] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.111] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.112]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.112] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.112] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.112] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.113] ==============================================
+[[35minfo[0m] [0.113] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.114] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.114] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.114]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.114] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.114] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.115] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.115] ==============================================
+[[35minfo[0m] [0.115] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.116] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.116] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.116]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.116] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]11111111
+[[35minfo[0m] [0.117] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.117] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.117] ==============================================
+[[35minfo[0m] [0.118] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.118] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.118] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.118]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.119] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]22222222
+[[35minfo[0m] [0.119] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.119] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.119] ==============================================
+[[35minfo[0m] [0.120] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.120] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.120] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.120]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.121] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]33333333
+[[35minfo[0m] [0.121] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.121] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.121] ==============================================
+[[35minfo[0m] [0.122] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.122] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.122] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.122]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.123] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]44444444
+[[35minfo[0m] [0.123] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.123] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.123] ==============================================
+[[35minfo[0m] [0.124] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.124] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.124] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.125]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.125] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]55555555
+[[35minfo[0m] [0.125] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.125] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.126] ==============================================
+[[35minfo[0m] [0.127] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.127] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.127] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.128]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.128] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]66666666
+[[35minfo[0m] [0.128] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.128] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.128] ==============================================
+[[35minfo[0m] [0.129] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.129] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.130] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.130]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.130] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]77777777
+[[35minfo[0m] [0.130] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.130] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.131] ==============================================
+[[35minfo[0m] [0.131] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.131] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.132] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.132]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.132] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]88888888
+[[35minfo[0m] [0.132] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.132] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.133] ==============================================
+[[35minfo[0m] [0.133] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.133] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.134] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.134]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.134] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]99999999
+[[35minfo[0m] [0.134] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.135] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.135] ==============================================
+[[35minfo[0m] [0.136] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.136] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.136] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.136]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.137] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]aaaaaaaa
+[[35minfo[0m] [0.137] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.137] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.137] ==============================================
+[[35minfo[0m] [0.138] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.138] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.139] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.139]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.139] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]bbbbbbbb
+[[35minfo[0m] [0.139] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.140] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.140] ==============================================
+[[35minfo[0m] [0.141] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.141] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.141] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.141]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.142] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]cccccccc
+[[35minfo[0m] [0.142] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.142] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.142] ==============================================
+[[35minfo[0m] [0.143] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.143] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.143] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.143]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.144] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]dddddddd
+[[35minfo[0m] [0.144] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.144] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.144] ==============================================
+[[35minfo[0m] [0.145] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.145] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.145] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.145]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.146] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]eeeeeeee
+[[35minfo[0m] [0.146] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.146] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.146] ==============================================
+[[35minfo[0m] [0.147] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.147] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.147] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.148]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.148] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]ffffffff
+[[35minfo[0m] [0.148] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.148] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.149] ==============================================
+[[35minfo[0m] [0.149] [PC_IF ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.149] [PC_ID ]      60 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.150] [PC_EXE]      56 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.150]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.150] [PC_MEM]      52 [Inst] vle8_v v2, 0(t0)          [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.150] [PC_WB ]      48 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.151] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.151] ==============================================
+[[35minfo[0m] [0.151] [PC_IF ]      68 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.152] [PC_ID ]      64 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.152] [PC_EXE]      60 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.152]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.152] [PC_MEM]      56 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.153] [PC_WB ]      52 [Inst] vle8_v v2, 0(t0)          [ WB reg ]       2 [WB  data]    8000
+[[35minfo[0m] [0.153] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.153] ==============================================
+[[35minfo[0m] [0.154] [PC_IF ]      72 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.154] [PC_ID ]      68 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.154] [PC_EXE]      64 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.155]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.155] [PC_MEM]      60 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.155] [PC_WB ]      56 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.156] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.156] ==============================================
+[[35minfo[0m] [0.156] [PC_IF ]      76 [Inst] vadd_vv v3, v1, v2        
+[[35minfo[0m] [0.157] [PC_ID ]      72 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.157] [PC_EXE]      68 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.157]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.157] [PC_MEM]      64 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.158] [PC_WB ]      60 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.158] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.158] ==============================================
+[[35minfo[0m] [0.158] [PC_IF ]      80 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.159] [PC_ID ]      76 [Inst] vadd_vv v3, v1, v2        
+[[35minfo[0m] [0.159] [PC_EXE]      72 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.159]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.159] [PC_MEM]      68 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.159] [PC_WB ]      64 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.160] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.160] ==============================================
+[[35minfo[0m] [0.161] [PC_IF ]      84 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.161] [PC_ID ]      80 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.161] [PC_EXE]      76 [Inst] vadd_vv v3, v1, v2        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.161]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.161] [PC_MEM]      72 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.162] [PC_WB ]      68 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.162] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.162] ==============================================
+[[35minfo[0m] [0.164] [PC_IF ]      88 [Inst] vadd_vv v3, v3, v1        
+[[35minfo[0m] [0.164] [PC_ID ]      84 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.164] [PC_EXE]      80 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.164]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.165] [PC_MEM]      76 [Inst] vadd_vv v3, v1, v2        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.165] [PC_WB ]      72 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.165] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.165] ==============================================
+[[35minfo[0m] [0.166] [PC_IF ]      92 [Inst] vadd_vv v4, v1, v2        
+[[35minfo[0m] [0.166] [PC_ID ]      88 [Inst] vadd_vv v3, v3, v1        
+[[35minfo[0m] [0.166] [PC_EXE]      84 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.167]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.167] [PC_MEM]      80 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.167] [PC_WB ]      76 [Inst] vadd_vv v3, v1, v2        [ WB reg ]       3 [WB  data]       0
+[[35minfo[0m] [0.167] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.167] ==============================================
+[[35minfo[0m] [0.168] [PC_IF ]      92 [Inst] vadd_vv v4, v1, v2        
+[[35minfo[0m] [0.168] [PC_ID ]      88 [Inst] vadd_vv v3, v3, v1        
+[[35minfo[0m] [0.168] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.169]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.169] [PC_MEM]      84 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.169] [PC_WB ]      80 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.169] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.170] ==============================================
+[[35minfo[0m] [0.170] [PC_IF ]      96 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.171] [PC_ID ]      92 [Inst] vadd_vv v4, v1, v2        
+[[35minfo[0m] [0.171] [PC_EXE]      88 [Inst] vadd_vv v3, v3, v1        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.171]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.171] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.171] [PC_WB ]      84 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.172] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.172] ==============================================
+[[35minfo[0m] [0.173] [PC_IF ]     100 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.173] [PC_ID ]      96 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.173] [PC_EXE]      92 [Inst] vadd_vv v4, v1, v2        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.173]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.173] [PC_MEM]      88 [Inst] vadd_vv v3, v3, v1        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.174] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.174] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.174] ==============================================
+[[35minfo[0m] [0.175] [PC_IF ]     104 [Inst] vadd_vv v4, v1, v4        
+[[35minfo[0m] [0.175] [PC_ID ]     100 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.176] [PC_EXE]      96 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.176]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.176] [PC_MEM]      92 [Inst] vadd_vv v4, v1, v2        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.176] [PC_WB ]      88 [Inst] vadd_vv v3, v3, v1        [ WB reg ]       3 [WB  data]       0
+[[35minfo[0m] [0.177] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.177] ==============================================
+[[35minfo[0m] [0.177] [PC_IF ]     108 [Inst] addi t1, x0, 2            
+[[35minfo[0m] [0.178] [PC_ID ]     104 [Inst] vadd_vv v4, v1, v4        
+[[35minfo[0m] [0.178] [PC_EXE]     100 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.178]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.178] [PC_MEM]      96 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.179] [PC_WB ]      92 [Inst] vadd_vv v4, v1, v2        [ WB reg ]       4 [WB  data]       0
+[[35minfo[0m] [0.179] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.179] ==============================================
+[[35minfo[0m] [0.180] [PC_IF ]     108 [Inst] addi t1, x0, 2            
+[[35minfo[0m] [0.180] [PC_ID ]     104 [Inst] vadd_vv v4, v1, v4        
+[[35minfo[0m] [0.180] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.180]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.180] [PC_MEM]     100 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.181] [PC_WB ]      96 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.181] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.181] ==============================================
+[[35minfo[0m] [0.182] [PC_IF ]     112 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.182] [PC_ID ]     108 [Inst] addi t1, x0, 2            
+[[35minfo[0m] [0.182] [PC_EXE]     104 [Inst] vadd_vv v4, v1, v4        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.182]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.183] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.183] [PC_WB ]     100 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.183] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.183] ==============================================
+[[35minfo[0m] [0.184] [PC_IF ]     116 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.184] [PC_ID ]     112 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.184] [PC_EXE]     108 [Inst] addi t1, x0, 2            [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.184]                                                   [ALU src1]       0 [ALU src2]       2 [ALU Out]       2
+[[35minfo[0m] [0.184] [PC_MEM]     104 [Inst] vadd_vv v4, v1, v4        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.185] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.185] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.185] ==============================================
+[[35minfo[0m] [0.185] [PC_IF ]     120 [Inst] vmul_vx v5, v1, t1        
+[[35minfo[0m] [0.186] [PC_ID ]     116 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.186] [PC_EXE]     112 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.186]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.186] [PC_MEM]     108 [Inst] addi t1, x0, 2            [DM Raddr]       2 [DM Rdata]12345678
+[[35minfo[0m] [0.187] [PC_WB ]     104 [Inst] vadd_vv v4, v1, v4        [ WB reg ]       4 [WB  data]       0
+[[35minfo[0m] [0.187] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.187] ==============================================
+[[35minfo[0m] [0.188] [PC_IF ]     124 [Inst] vadd_vv v6, v1, v2        
+[[35minfo[0m] [0.188] [PC_ID ]     120 [Inst] vmul_vx v5, v1, t1        
+[[35minfo[0m] [0.188] [PC_EXE]     116 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.188]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.189] [PC_MEM]     112 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.189] [PC_WB ]     108 [Inst] addi t1, x0, 2            [ WB reg ]       6 [WB  data]       2
+[[35minfo[0m] [0.189] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.189] ==============================================
+[[35minfo[0m] [0.190] [PC_IF ]     128 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.190] [PC_ID ]     124 [Inst] vadd_vv v6, v1, v2        
+[[35minfo[0m] [0.190] [PC_EXE]     120 [Inst] vmul_vx v5, v1, t1        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.190]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.191] [PC_MEM]     116 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.191] [PC_WB ]     112 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.191] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.191] ==============================================
+[[35minfo[0m] [0.192] [PC_IF ]     132 [Inst] vadd_vv v6, v6, v1        
+[[35minfo[0m] [0.192] [PC_ID ]     128 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.192] [PC_EXE]     124 [Inst] vadd_vv v6, v1, v2        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.192]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.192] [PC_MEM]     120 [Inst] vmul_vx v5, v1, t1        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.193] [PC_WB ]     116 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.193] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.193] ==============================================
+[[35minfo[0m] [0.194] [PC_IF ]     136 [Inst] vadd_vv v7, v1, v2        
+[[35minfo[0m] [0.194] [PC_ID ]     132 [Inst] vadd_vv v6, v6, v1        
+[[35minfo[0m] [0.194] [PC_EXE]     128 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.194]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.194] [PC_MEM]     124 [Inst] vadd_vv v6, v1, v2        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.195] [PC_WB ]     120 [Inst] vmul_vx v5, v1, t1        [ WB reg ]       5 [WB  data]       0
+[[35minfo[0m] [0.195] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.195] ==============================================
+[[35minfo[0m] [0.195] [PC_IF ]     136 [Inst] vadd_vv v7, v1, v2        
+[[35minfo[0m] [0.196] [PC_ID ]     132 [Inst] vadd_vv v6, v6, v1        
+[[35minfo[0m] [0.196] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.196]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.196] [PC_MEM]     128 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.196] [PC_WB ]     124 [Inst] vadd_vv v6, v1, v2        [ WB reg ]       6 [WB  data]       0
+[[35minfo[0m] [0.197] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.197] ==============================================
+[[35minfo[0m] [0.197] [PC_IF ]     136 [Inst] vadd_vv v7, v1, v2        
+[[35minfo[0m] [0.197] [PC_ID ]     132 [Inst] vadd_vv v6, v6, v1        
+[[35minfo[0m] [0.198] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.198]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.198] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.198] [PC_WB ]     128 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.198] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.199] ==============================================
+[[35minfo[0m] [0.199] [PC_IF ]     140 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.200] [PC_ID ]     136 [Inst] vadd_vv v7, v1, v2        
+[[35minfo[0m] [0.200] [PC_EXE]     132 [Inst] vadd_vv v6, v6, v1        [EXE src1]       2 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.200]                                                   [ALU src1]       2 [ALU src2]       0 [ALU Out]       2
+[[35minfo[0m] [0.200] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.200] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.201] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.201] ==============================================
+[[35minfo[0m] [0.201] [PC_IF ]     144 [Inst] vadd_vv v7, v1, v7        
+[[35minfo[0m] [0.202] [PC_ID ]     140 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.202] [PC_EXE]     136 [Inst] vadd_vv v7, v1, v2        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.202]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.202] [PC_MEM]     132 [Inst] vadd_vv v6, v6, v1        [DM Raddr]       2 [DM Rdata]12345678
+[[35minfo[0m] [0.203] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.203] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.203] ==============================================
+[[35minfo[0m] [0.204] [PC_IF ]     148 [Inst] addi t2, x0, 2            
+[[35minfo[0m] [0.204] [PC_ID ]     144 [Inst] vadd_vv v7, v1, v7        
+[[35minfo[0m] [0.204] [PC_EXE]     140 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.204]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.205] [PC_MEM]     136 [Inst] vadd_vv v7, v1, v2        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.205] [PC_WB ]     132 [Inst] vadd_vv v6, v6, v1        [ WB reg ]       6 [WB  data]       2
+[[35minfo[0m] [0.205] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.205] ==============================================
+[[35minfo[0m] [0.206] [PC_IF ]     148 [Inst] addi t2, x0, 2            
+[[35minfo[0m] [0.206] [PC_ID ]     144 [Inst] vadd_vv v7, v1, v7        
+[[35minfo[0m] [0.206] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.206]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.207] [PC_MEM]     140 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.207] [PC_WB ]     136 [Inst] vadd_vv v7, v1, v2        [ WB reg ]       7 [WB  data]       0
+[[35minfo[0m] [0.207] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.207] ==============================================
+[[35minfo[0m] [0.208] [PC_IF ]     148 [Inst] addi t2, x0, 2            
+[[35minfo[0m] [0.208] [PC_ID ]     144 [Inst] vadd_vv v7, v1, v7        
+[[35minfo[0m] [0.208] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.208]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.209] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.209] [PC_WB ]     140 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.209] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.209] ==============================================
+[[35minfo[0m] [0.210] [PC_IF ]     152 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.210] [PC_ID ]     148 [Inst] addi t2, x0, 2            
+[[35minfo[0m] [0.210] [PC_EXE]     144 [Inst] vadd_vv v7, v1, v7        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.210]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.211] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.211] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.211] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.211] ==============================================
+[[35minfo[0m] [0.212] [PC_IF ]     156 [Inst] vmul_vx v8, v1, t2        
+[[35minfo[0m] [0.212] [PC_ID ]     152 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.212] [PC_EXE]     148 [Inst] addi t2, x0, 2            [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.213]                                                   [ALU src1]       0 [ALU src2]       2 [ALU Out]       2
+[[35minfo[0m] [0.213] [PC_MEM]     144 [Inst] vadd_vv v7, v1, v7        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.213] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.213] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.213] ==============================================
+[[35minfo[0m] [0.214] [PC_IF ]     160 [Inst] vadd_vv v9, v1, v2        
+[[35minfo[0m] [0.214] [PC_ID ]     156 [Inst] vmul_vx v8, v1, t2        
+[[35minfo[0m] [0.214] [PC_EXE]     152 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.215]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.215] [PC_MEM]     148 [Inst] addi t2, x0, 2            [DM Raddr]       2 [DM Rdata]12345678
+[[35minfo[0m] [0.215] [PC_WB ]     144 [Inst] vadd_vv v7, v1, v7        [ WB reg ]       7 [WB  data]       0
+[[35minfo[0m] [0.215] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.215] ==============================================
+[[35minfo[0m] [0.216] [PC_IF ]     160 [Inst] vadd_vv v9, v1, v2        
+[[35minfo[0m] [0.216] [PC_ID ]     156 [Inst] vmul_vx v8, v1, t2        
+[[35minfo[0m] [0.216] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.216]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.217] [PC_MEM]     152 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.217] [PC_WB ]     148 [Inst] addi t2, x0, 2            [ WB reg ]       7 [WB  data]       2
+[[35minfo[0m] [0.217] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.217] ==============================================
+[[35minfo[0m] [0.218] [PC_IF ]     164 [Inst] vadd_vv v9, v9, v1        
+[[35minfo[0m] [0.218] [PC_ID ]     160 [Inst] vadd_vv v9, v1, v2        
+[[35minfo[0m] [0.218] [PC_EXE]     156 [Inst] vmul_vx v8, v1, t2        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.218]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.219] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.219] [PC_WB ]     152 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.219] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.219] ==============================================
+[[35minfo[0m] [0.220] [PC_IF ]     168 [Inst] vadd_vv v10, v1, v2       
+[[35minfo[0m] [0.221] [PC_ID ]     164 [Inst] vadd_vv v9, v9, v1        
+[[35minfo[0m] [0.221] [PC_EXE]     160 [Inst] vadd_vv v9, v1, v2        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.221]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.221] [PC_MEM]     156 [Inst] vmul_vx v8, v1, t2        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.221] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.222] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.222] ==============================================
+[[35minfo[0m] [0.223] [PC_IF ]     168 [Inst] vadd_vv v10, v1, v2       
+[[35minfo[0m] [0.223] [PC_ID ]     164 [Inst] vadd_vv v9, v9, v1        
+[[35minfo[0m] [0.223] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.223]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.224] [PC_MEM]     160 [Inst] vadd_vv v9, v1, v2        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.224] [PC_WB ]     156 [Inst] vmul_vx v8, v1, t2        [ WB reg ]       8 [WB  data]       0
+[[35minfo[0m] [0.224] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.224] ==============================================
+[[35minfo[0m] [0.225] [PC_IF ]     168 [Inst] vadd_vv v10, v1, v2       
+[[35minfo[0m] [0.225] [PC_ID ]     164 [Inst] vadd_vv v9, v9, v1        
+[[35minfo[0m] [0.225] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.226]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.226] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.226] [PC_WB ]     160 [Inst] vadd_vv v9, v1, v2        [ WB reg ]       9 [WB  data]       0
+[[35minfo[0m] [0.226] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.226] ==============================================
+[[35minfo[0m] [0.227] [PC_IF ]     168 [Inst] vadd_vv v10, v1, v2       
+[[35minfo[0m] [0.227] [PC_ID ]     164 [Inst] vadd_vv v9, v9, v1        
+[[35minfo[0m] [0.228] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.228]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.239] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.240] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.240] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.240] ==============================================
+[[35minfo[0m] [0.241] [PC_IF ]     172 [Inst] vadd_vv v10, v1, v10      
+[[35minfo[0m] [0.242] [PC_ID ]     168 [Inst] vadd_vv v10, v1, v2       
+[[35minfo[0m] [0.242] [PC_EXE]     164 [Inst] vadd_vv v9, v9, v1        [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.242]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.242] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.242] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.243] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.243] ==============================================
+[[35minfo[0m] [0.244] [PC_IF ]     176 [Inst] addi t3, x0, 2            
+[[35minfo[0m] [0.245] [PC_ID ]     172 [Inst] vadd_vv v10, v1, v10      
+[[35minfo[0m] [0.245] [PC_EXE]     168 [Inst] vadd_vv v10, v1, v2       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.245]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.245] [PC_MEM]     164 [Inst] vadd_vv v9, v9, v1        [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.246] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.246] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.246] ==============================================
+[[35minfo[0m] [0.247] [PC_IF ]     176 [Inst] addi t3, x0, 2            
+[[35minfo[0m] [0.248] [PC_ID ]     172 [Inst] vadd_vv v10, v1, v10      
+[[35minfo[0m] [0.248] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.248]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.248] [PC_MEM]     168 [Inst] vadd_vv v10, v1, v2       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.248] [PC_WB ]     164 [Inst] vadd_vv v9, v9, v1        [ WB reg ]       9 [WB  data]       0
+[[35minfo[0m] [0.249] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.249] ==============================================
+[[35minfo[0m] [0.250] [PC_IF ]     176 [Inst] addi t3, x0, 2            
+[[35minfo[0m] [0.250] [PC_ID ]     172 [Inst] vadd_vv v10, v1, v10      
+[[35minfo[0m] [0.250] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.250]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.251] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.251] [PC_WB ]     168 [Inst] vadd_vv v10, v1, v2       [ WB reg ]      10 [WB  data]       0
+[[35minfo[0m] [0.251] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.251] ==============================================
+[[35minfo[0m] [0.252] [PC_IF ]     176 [Inst] addi t3, x0, 2            
+[[35minfo[0m] [0.252] [PC_ID ]     172 [Inst] vadd_vv v10, v1, v10      
+[[35minfo[0m] [0.252] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.252]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.253] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.253] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.253] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.253] ==============================================
+[[35minfo[0m] [0.254] [PC_IF ]     180 [Inst] vmul_vx v11, v1, t3       
+[[35minfo[0m] [0.254] [PC_ID ]     176 [Inst] addi t3, x0, 2            
+[[35minfo[0m] [0.254] [PC_EXE]     172 [Inst] vadd_vv v10, v1, v10      [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.254]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.255] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.255] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.255] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.255] ==============================================
+[[35minfo[0m] [0.256] [PC_IF ]     184 [Inst] lui x29, 0x00000008       
+[[35minfo[0m] [0.256] [PC_ID ]     180 [Inst] vmul_vx v11, v1, t3       
+[[35minfo[0m] [0.257] [PC_EXE]     176 [Inst] addi t3, x0, 2            [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.257]                                                   [ALU src1]       0 [ALU src2]       2 [ALU Out]       2
+[[35minfo[0m] [0.257] [PC_MEM]     172 [Inst] vadd_vv v10, v1, v10      [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.258] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.258] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.258] ==============================================
+[[35minfo[0m] [0.259] [PC_IF ]     188 [Inst] addi x29, x29, 0x00000000 
+[[35minfo[0m] [0.259] [PC_ID ]     184 [Inst] lui x29, 0x00000008       
+[[35minfo[0m] [0.259] [PC_EXE]     180 [Inst] vmul_vx v11, v1, t3       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.260]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.260] [PC_MEM]     176 [Inst] addi t3, x0, 2            [DM Raddr]       2 [DM Rdata]12345678
+[[35minfo[0m] [0.260] [PC_WB ]     172 [Inst] vadd_vv v10, v1, v10      [ WB reg ]      10 [WB  data]       0
+[[35minfo[0m] [0.260] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.260] ==============================================
+[[35minfo[0m] [0.261] [PC_IF ]     192 [Inst] vle8_v v12, 0(t4)         
+[[35minfo[0m] [0.262] [PC_ID ]     188 [Inst] addi x29, x29, 0x00000000 
+[[35minfo[0m] [0.262] [PC_EXE]     184 [Inst] lui x29, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.262]                                                   [ALU src1]       0 [ALU src2]    8000 [ALU Out]    8000
+[[35minfo[0m] [0.262] [PC_MEM]     180 [Inst] vmul_vx v11, v1, t3       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.263] [PC_WB ]     176 [Inst] addi t3, x0, 2            [ WB reg ]      28 [WB  data]       2
+[[35minfo[0m] [0.263] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.263] ==============================================
+[[35minfo[0m] [0.264] [PC_IF ]     192 [Inst] vle8_v v12, 0(t4)         
+[[35minfo[0m] [0.264] [PC_ID ]     188 [Inst] addi x29, x29, 0x00000000 
+[[35minfo[0m] [0.264] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.264]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.265] [PC_MEM]     184 [Inst] lui x29, 0x00000008       [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.265] [PC_WB ]     180 [Inst] vmul_vx v11, v1, t3       [ WB reg ]      11 [WB  data]       0
+[[35minfo[0m] [0.265] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.265] ==============================================
+[[35minfo[0m] [0.267] [PC_IF ]     192 [Inst] vle8_v v12, 0(t4)         
+[[35minfo[0m] [0.267] [PC_ID ]     188 [Inst] addi x29, x29, 0x00000000 
+[[35minfo[0m] [0.267] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.267]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.268] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.268] [PC_WB ]     184 [Inst] lui x29, 0x00000008       [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.268] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.268] ==============================================
+[[35minfo[0m] [0.269] [PC_IF ]     192 [Inst] vle8_v v12, 0(t4)         
+[[35minfo[0m] [0.269] [PC_ID ]     188 [Inst] addi x29, x29, 0x00000000 
+[[35minfo[0m] [0.270] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.270]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.270] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.270] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.270] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.271] ==============================================
+[[35minfo[0m] [0.271] [PC_IF ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.272] [PC_ID ]     192 [Inst] vle8_v v12, 0(t4)         
+[[35minfo[0m] [0.272] [PC_EXE]     188 [Inst] addi x29, x29, 0x00000000 [EXE src1]    8000 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.272]                                                   [ALU src1]    8000 [ALU src2]       0 [ALU Out]    8000
+[[35minfo[0m] [0.272] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.273] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.273] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.273] ==============================================
+[[35minfo[0m] [0.274] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.274] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.274] [PC_EXE]     192 [Inst] vle8_v v12, 0(t4)         [EXE src1]    8000 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.274]                                                   [ALU src1]    8000 [ALU src2]       0 [ALU Out]    8000
+[[35minfo[0m] [0.275] [PC_MEM]     188 [Inst] addi x29, x29, 0x00000000 [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.275] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.275] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.275] ==============================================
+[[35minfo[0m] [0.276] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.276] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.276] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.277]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.277] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.277] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.277] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.277] ==============================================
+[[35minfo[0m] [0.278] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.278] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.279] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.279]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.279] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.279] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.280] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.280] ==============================================
+[[35minfo[0m] [0.280] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.281] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.281] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.281]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.281] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]11111111
+[[35minfo[0m] [0.281] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.282] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.282] ==============================================
+[[35minfo[0m] [0.282] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.283] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.283] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.283]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.283] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]22222222
+[[35minfo[0m] [0.283] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.284] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.284] ==============================================
+[[35minfo[0m] [0.285] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.285] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.285] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.285]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.286] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]33333333
+[[35minfo[0m] [0.286] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.286] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.286] ==============================================
+[[35minfo[0m] [0.287] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.287] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.288] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.288]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.288] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]44444444
+[[35minfo[0m] [0.288] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.288] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.289] ==============================================
+[[35minfo[0m] [0.289] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.290] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.290] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.290]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.290] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]55555555
+[[35minfo[0m] [0.291] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.291] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.291] ==============================================
+[[35minfo[0m] [0.292] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.293] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.293] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.293]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.294] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]66666666
+[[35minfo[0m] [0.294] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.294] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.294] ==============================================
+[[35minfo[0m] [0.295] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.296] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.296] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.296]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.297] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]77777777
+[[35minfo[0m] [0.297] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.297] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.297] ==============================================
+[[35minfo[0m] [0.299] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.299] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.299] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.300]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.300] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]88888888
+[[35minfo[0m] [0.300] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.300] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.301] ==============================================
+[[35minfo[0m] [0.302] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.302] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.302] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.302]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.303] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]99999999
+[[35minfo[0m] [0.303] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.303] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.303] ==============================================
+[[35minfo[0m] [0.304] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.304] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.305] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.305]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.305] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]aaaaaaaa
+[[35minfo[0m] [0.305] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.305] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.306] ==============================================
+[[35minfo[0m] [0.306] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.307] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.307] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.307]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.307] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]bbbbbbbb
+[[35minfo[0m] [0.307] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.308] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.308] ==============================================
+[[35minfo[0m] [0.309] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.309] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.309] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.310]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.310] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]cccccccc
+[[35minfo[0m] [0.310] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.310] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.311] ==============================================
+[[35minfo[0m] [0.312] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.312] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.312] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.313]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.313] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]dddddddd
+[[35minfo[0m] [0.313] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.313] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.313] ==============================================
+[[35minfo[0m] [0.314] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.315] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.315] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.315]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.315] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]eeeeeeee
+[[35minfo[0m] [0.315] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.316] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.316] ==============================================
+[[35minfo[0m] [0.317] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.317] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.317] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.317]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.318] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]ffffffff
+[[35minfo[0m] [0.318] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.318] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.318] ==============================================
+[[35minfo[0m] [0.319] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.319] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.319] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.320]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.320] [PC_MEM]     192 [Inst] vle8_v v12, 0(t4)         [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.320] [PC_WB ]     188 [Inst] addi x29, x29, 0x00000000 [ WB reg ]      29 [WB  data]    8000
+[[35minfo[0m] [0.320] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.320] ==============================================
+[[35minfo[0m] [0.321] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.321] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.322] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.322]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.322] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.322] [PC_WB ]     192 [Inst] vle8_v v12, 0(t4)         [ WB reg ]      12 [WB  data]    8000
+[[35minfo[0m] [0.322] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.323] ==============================================
+[[35minfo[0m] [0.324] [PC_IF ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.325] [PC_ID ]     196 [Inst] vadd_vv v12, v12, v1      
+[[35minfo[0m] [0.325] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.325]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.325] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.326] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.326] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.326] ==============================================
+[[35minfo[0m] [0.328] [PC_IF ]     204 [Inst] addi x30, x30, 0x00000000 
+[[35minfo[0m] [0.328] [PC_ID ]     200 [Inst] lui x30, 0x00000008       
+[[35minfo[0m] [0.329] [PC_EXE]     196 [Inst] vadd_vv v12, v12, v1      [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.329]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.329] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.329] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.329] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.329] ==============================================
+[[35minfo[0m] [0.331] [PC_IF ]     208 [Inst] vle8_v v13, 0(t5)         
+[[35minfo[0m] [0.331] [PC_ID ]     204 [Inst] addi x30, x30, 0x00000000 
+[[35minfo[0m] [0.331] [PC_EXE]     200 [Inst] lui x30, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.331]                                                   [ALU src1]       0 [ALU src2]    8000 [ALU Out]    8000
+[[35minfo[0m] [0.331] [PC_MEM]     196 [Inst] vadd_vv v12, v12, v1      [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.332] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.332] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.332] ==============================================
+[[35minfo[0m] [0.333] [PC_IF ]     208 [Inst] vle8_v v13, 0(t5)         
+[[35minfo[0m] [0.333] [PC_ID ]     204 [Inst] addi x30, x30, 0x00000000 
+[[35minfo[0m] [0.333] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.333]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.334] [PC_MEM]     200 [Inst] lui x30, 0x00000008       [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.334] [PC_WB ]     196 [Inst] vadd_vv v12, v12, v1      [ WB reg ]      12 [WB  data]       0
+[[35minfo[0m] [0.334] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.334] ==============================================
+[[35minfo[0m] [0.335] [PC_IF ]     208 [Inst] vle8_v v13, 0(t5)         
+[[35minfo[0m] [0.335] [PC_ID ]     204 [Inst] addi x30, x30, 0x00000000 
+[[35minfo[0m] [0.335] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.335]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.336] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.336] [PC_WB ]     200 [Inst] lui x30, 0x00000008       [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.336] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.336] ==============================================
+[[35minfo[0m] [0.337] [PC_IF ]     208 [Inst] vle8_v v13, 0(t5)         
+[[35minfo[0m] [0.337] [PC_ID ]     204 [Inst] addi x30, x30, 0x00000000 
+[[35minfo[0m] [0.337] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.338]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.338] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.338] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.338] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.338] ==============================================
+[[35minfo[0m] [0.339] [PC_IF ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.339] [PC_ID ]     208 [Inst] vle8_v v13, 0(t5)         
+[[35minfo[0m] [0.339] [PC_EXE]     204 [Inst] addi x30, x30, 0x00000000 [EXE src1]    8000 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.340]                                                   [ALU src1]    8000 [ALU src2]       0 [ALU Out]    8000
+[[35minfo[0m] [0.340] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.340] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.340] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.340] ==============================================
+[[35minfo[0m] [0.341] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.341] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.342] [PC_EXE]     208 [Inst] vle8_v v13, 0(t5)         [EXE src1]    8000 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.342]                                                   [ALU src1]    8000 [ALU src2]       0 [ALU Out]    8000
+[[35minfo[0m] [0.342] [PC_MEM]     204 [Inst] addi x30, x30, 0x00000000 [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.342] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.342] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.343] ==============================================
+[[35minfo[0m] [0.343] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.343] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.344] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.344]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.344] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.344] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.345] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.345] ==============================================
+[[35minfo[0m] [0.346] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.346] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.346] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.346]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.347] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.347] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.347] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.347] ==============================================
+[[35minfo[0m] [0.348] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.348] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.348] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.349]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.349] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]11111111
+[[35minfo[0m] [0.349] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.349] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.349] ==============================================
+[[35minfo[0m] [0.350] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.350] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.351] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.351]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.351] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]22222222
+[[35minfo[0m] [0.351] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.351] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.352] ==============================================
+[[35minfo[0m] [0.352] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.352] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.353] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.353]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.353] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]33333333
+[[35minfo[0m] [0.353] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.353] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.354] ==============================================
+[[35minfo[0m] [0.354] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.354] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.355] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.355]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.355] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]44444444
+[[35minfo[0m] [0.355] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.355] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.356] ==============================================
+[[35minfo[0m] [0.356] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.357] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.357] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.357]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.357] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]55555555
+[[35minfo[0m] [0.357] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.358] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.358] ==============================================
+[[35minfo[0m] [0.358] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.359] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.359] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.359]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.359] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]66666666
+[[35minfo[0m] [0.359] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.360] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.360] ==============================================
+[[35minfo[0m] [0.361] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.361] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.361] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.362]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.362] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]77777777
+[[35minfo[0m] [0.362] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.362] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.362] ==============================================
+[[35minfo[0m] [0.363] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.363] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.364] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.364]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.364] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]88888888
+[[35minfo[0m] [0.364] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.364] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.365] ==============================================
+[[35minfo[0m] [0.366] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.366] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.366] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.366]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.367] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]99999999
+[[35minfo[0m] [0.367] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.367] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.367] ==============================================
+[[35minfo[0m] [0.368] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.368] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.368] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.368]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.369] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]aaaaaaaa
+[[35minfo[0m] [0.369] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.369] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.369] ==============================================
+[[35minfo[0m] [0.370] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.370] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.370] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.371]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.371] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]bbbbbbbb
+[[35minfo[0m] [0.371] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.371] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.371] ==============================================
+[[35minfo[0m] [0.372] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.372] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.373] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.373]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.373] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]cccccccc
+[[35minfo[0m] [0.373] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.373] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.374] ==============================================
+[[35minfo[0m] [0.374] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.375] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.375] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.375]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.375] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]dddddddd
+[[35minfo[0m] [0.375] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.376] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.376] ==============================================
+[[35minfo[0m] [0.377] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.377] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.377] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.377]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.378] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]eeeeeeee
+[[35minfo[0m] [0.378] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.378] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.378] ==============================================
+[[35minfo[0m] [0.379] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.379] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.379] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.380]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.380] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]ffffffff
+[[35minfo[0m] [0.380] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.380] [Flush ] 0 [Stall_MA ] 1 [Stall_DH ] 0 
+[[35minfo[0m] [0.380] ==============================================
+[[35minfo[0m] [0.382] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.382] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.382] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.382]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.382] [PC_MEM]     208 [Inst] vle8_v v13, 0(t5)         [DM Raddr]    8000 [DM Rdata]12345678
+[[35minfo[0m] [0.382] [PC_WB ]     204 [Inst] addi x30, x30, 0x00000000 [ WB reg ]      30 [WB  data]    8000
+[[35minfo[0m] [0.383] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.383] ==============================================
+[[35minfo[0m] [0.384] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.384] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.384] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.384]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.384] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.384] [PC_WB ]     208 [Inst] vle8_v v13, 0(t5)         [ WB reg ]      13 [WB  data]    8000
+[[35minfo[0m] [0.385] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 1 
+[[35minfo[0m] [0.385] ==============================================
+[[35minfo[0m] [0.386] [PC_IF ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.386] [PC_ID ]     212 [Inst] vadd_vv v13, v1, v13      
+[[35minfo[0m] [0.386] [PC_EXE]       0 [Inst] lui x05, 0x00000008       [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.386]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.387] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.387] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.387] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.387] ==============================================
+[[35minfo[0m] [0.388] [PC_IF ]     220 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.388] [PC_ID ]     216 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.388] [PC_EXE]     212 [Inst] vadd_vv v13, v1, v13      [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.388]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.389] [PC_MEM]       0 [Inst] lui x05, 0x00000008       [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.389] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.389] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.389] ==============================================
+[[35minfo[0m] [0.390] [PC_IF ]     224 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.390] [PC_ID ]     220 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.390] [PC_EXE]     216 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.390]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.390] [PC_MEM]     212 [Inst] vadd_vv v13, v1, v13      [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.391] [PC_WB ]       0 [Inst] lui x05, 0x00000008       [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.391] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.391] ==============================================
+[[35minfo[0m] [0.392] [PC_IF ]     228 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.392] [PC_ID ]     224 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.392] [PC_EXE]     220 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.392]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.393] [PC_MEM]     216 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.393] [PC_WB ]     212 [Inst] vadd_vv v13, v1, v13      [ WB reg ]      13 [WB  data]       0
+[[35minfo[0m] [0.393] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.393] ==============================================
+[[35minfo[0m] [0.394] [PC_IF ]     232 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.394] [PC_ID ]     228 [Inst] nop zero, zero, 0         
+[[35minfo[0m] [0.394] [PC_EXE]     224 [Inst] nop zero, zero, 0         [EXE src1]       0 [EXE src2]       0 [Br taken] 0 
+[[35minfo[0m] [0.394]                                                   [ALU src1]       0 [ALU src2]       0 [ALU Out]       0
+[[35minfo[0m] [0.395] [PC_MEM]     220 [Inst] nop zero, zero, 0         [DM Raddr]       0 [DM Rdata]12345678
+[[35minfo[0m] [0.395] [PC_WB ]     216 [Inst] nop zero, zero, 0         [ WB reg ]       0 [WB  data]       0
+[[35minfo[0m] [0.395] [Flush ] 0 [Stall_MA ] 0 [Stall_DH ] 0 
+[[35minfo[0m] [0.395] ==============================================
+[[35minfo[0m] [0.396] Inst:Hcf
+[[35minfo[0m] [0.396] This is the end of the program!!
+[[35minfo[0m] [0.396] ==============================================
+[[35minfo[0m] [0.397] Value in the RegFile
+[[35minfo[0m] [0.398] reg[00]：00000000 reg[01]：00000000 reg[02]：00000000 reg[03]：00000000 reg[04]：00000000 reg[05]：00008000 reg[06]：00000002 reg[07]：00000002 
+[[35minfo[0m] [0.398] reg[08]：00000000 reg[09]：00000000 reg[10]：00000000 reg[11]：00000000 reg[12]：00000000 reg[13]：00000000 reg[14]：00000000 reg[15]：00000000 
+[[35minfo[0m] [0.398] reg[16]：00000000 reg[17]：00000000 reg[18]：00000000 reg[19]：00000000 reg[20]：00000000 reg[21]：00000000 reg[22]：00000000 reg[23]：00000000 
+[[35minfo[0m] [0.399] reg[24]：00000000 reg[25]：00000000 reg[26]：00000000 reg[27]：00000000 reg[28]：00000002 reg[29]：00008000 reg[30]：00008000 reg[31]：00000000 
+[[35minfo[0m] [0.399] 
+[[35minfo[0m] [0.399] Value in the Vector RegFile
+[[35minfo[0m] [0.399] vector_reg[00]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.400] vector_reg[01]:12345678FFFFFFFFEEEEEEEEDDDDDDDDCCCCCCCCBBBBBBBBAAAAAAAA999999998888888877777777666666665555555544444444333333332222222211111111
+[[35minfo[0m] [0.400] vector_reg[02]:12345678FFFFFFFFEEEEEEEEDDDDDDDDCCCCCCCCBBBBBBBBAAAAAAAA999999998888888877777777666666665555555544444444333333332222222211111111
+[[35minfo[0m] [0.400] vector_reg[03]:369C0268FDFDFDFDCACACACA979797976464646431313131FEFEFEFECBCBCBCB989898986565656532323232FFFFFFFFCCCCCCCC999999996666666633333333
+[[35minfo[0m] [0.401] vector_reg[04]:369C0268FDFDFDFDCACACACA979797976464646431313131FEFEFEFECBCBCBCB989898986565656532323232FFFFFFFFCCCCCCCC999999996666666633333333
+[[35minfo[0m] [0.401] vector_reg[05]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.401] vector_reg[06]:369C0268FDFDFDFDCACACACA979797976464646431313131FEFEFEFECBCBCBCB989898986565656532323232FFFFFFFFCCCCCCCC999999996666666633333333
+[[35minfo[0m] [0.402] vector_reg[07]:369C0268FDFDFDFDCACACACA979797976464646431313131FEFEFEFECBCBCBCB989898986565656532323232FFFFFFFFCCCCCCCC999999996666666633333333
+[[35minfo[0m] [0.402] vector_reg[08]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.402] vector_reg[09]:369C0268FDFDFDFDCACACACA979797976464646431313131FEFEFEFECBCBCBCB989898986565656532323232FFFFFFFFCCCCCCCC999999996666666633333333
+[[35minfo[0m] [0.403] vector_reg[10]:369C0268FDFDFDFDCACACACA979797976464646431313131FEFEFEFECBCBCBCB989898986565656532323232FFFFFFFFCCCCCCCC999999996666666633333333
+[[35minfo[0m] [0.403] vector_reg[11]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.403] vector_reg[12]:2468ACF0FEFEFEFEDCDCDCDCBABABABA9898989876767676545454543232323210101010EEEEEEEECCCCCCCCAAAAAAAA88888888666666664444444422222222
+[[35minfo[0m] [0.404] vector_reg[13]:2468ACF0FEFEFEFEDCDCDCDCBABABABA9898989876767676545454543232323210101010EEEEEEEECCCCCCCCAAAAAAAA88888888666666664444444422222222
+[[35minfo[0m] [0.404] vector_reg[14]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.404] vector_reg[15]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.404] vector_reg[16]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.404] vector_reg[17]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.405] vector_reg[18]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.405] vector_reg[19]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.405] vector_reg[20]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.405] vector_reg[21]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.406] vector_reg[22]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.406] vector_reg[23]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.406] vector_reg[24]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.406] vector_reg[25]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.407] vector_reg[26]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.407] vector_reg[27]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.407] vector_reg[28]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.407] vector_reg[29]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.408] vector_reg[30]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.408] vector_reg[31]:00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+[[35minfo[0m] [0.408] ==============================================================
+[[35minfo[0m] [0.408] Performance Counter:
+[[35minfo[0m] [0.409] [Cycle Count                    ]      155
+[[35minfo[0m] [0.409] [Inst Count                     ]       75
+[[35minfo[0m] [0.409] [Conditional Branch Count       ]        0
+[[35minfo[0m] [0.409] [Unconditional Branch Count     ]        0
+[[35minfo[0m] [0.409] [Conditional Branch Hit Count   ]        0
+[[35minfo[0m] [0.410] [Unconditional Branch Hit Count ]        0
+[[35minfo[0m] [0.410] [Flush Count                    ]        0
+[[35minfo[0m] [0.410] ==============================================================
+[[35minfo[0m] [0.410] Performance Analysis:
+[[35minfo[0m] [0.410] [CPI                            ] 2.066667
+[[35minfo[0m] [0.411] ==============================================================
+test top_AXI Success: 0 tests passed in 161 cycles in 0.452287 seconds 355.97 Hz
+[[35minfo[0m] [0.411] RAN 156 CYCLES PASSED

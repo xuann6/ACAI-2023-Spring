@@ -1,0 +1,5 @@
+.metals/
+.vscode/
+test_run_dir/
+out/
+generated/
