@@ -1,0 +1,13 @@
+onnxruntime
+numpy
+requests
+Pillow
+packaging
+yapf
+toml
+onnx==1.11.0
+onnxoptimizer
+onnx-simplifier
+sclblonnx
+protobuf==3.20.1
+tabulate
