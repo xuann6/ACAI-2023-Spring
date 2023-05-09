@@ -208,8 +208,13 @@ public:
       best_score = *max_element(this->table[i].begin(), this->table[i].end());
 
       /* extract the offset which score == best_score */
-      for (int j = 0; j < NUMS_OFFSET; j++) {
-        if (table[i][j] == best_score)
+      // for (int j = 0; j < NUMS_OFFSET; j++) {
+      //   if (table[i][j] == best_score)
+      //     ans[i].push_back(j); /* NOTICE: HAVE TO TRANSFER THE INDEX OFFSET INTO OFFSET WITH POSITIVE / NEGATIVE VALUE */
+      // }
+
+      for (int j = MIN_OFFSET; j < MAX_OFFSET; j++) {
+        if (table[i][j + ORIGIN] == best_score)
           ans[i].push_back(j); /* NOTICE: HAVE TO TRANSFER THE INDEX OFFSET INTO OFFSET WITH POSITIVE / NEGATIVE VALUE */
       }
     }
